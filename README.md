@@ -8,11 +8,12 @@ Repositório dedicado à **criação manual, validação e expansão de repertó
 
 ```mermaid
 flowchart TD
-    A["1. Ingestão de Product Data<br/>(product_profile.json)"] --> B["2. Inteligência Multimodal<br/>(Video DNA & Creative Report)"]
-    B --> C["3. Estratégia de Modelos<br/>(model_strategy.json)"]
-    C --> D["4. Roteirização Calibrada 10s<br/>(base_scripts.json 2x5s)"]
-    D --> E["5. Geração Manual & Validação<br/>(Nano Banana / Veo Text-to-Video)"]
-    E --> F["6. Aprendizado & Expansão com Aprovação<br/>(knowledge_base.json via Git)"]
+    A["1. Ingestão de Product Data<br/>(product_profile.json)"] --> B["2. Inteligência Multimodal & DNA<br/>(Video DNA & Creative Report)"]
+    A --> C["3. Aprendizado Antecipado & Expansão do Banco<br/>(Proposta no Chat & Aprovação do Usuário)"]
+    B --> C
+    C -->|Banco Atualizado| D["4. Estratégia de Modelos Enriquecida<br/>(model_strategy.json)"]
+    D --> E["5. Roteirização Calibrada 10s de Máxima Performance<br/>(base_scripts.json 2x5s)"]
+    E --> F["6. Geração Manual & Validação<br/>(Nano Banana / Veo Text-to-Video)"]
 ```
 
 ---

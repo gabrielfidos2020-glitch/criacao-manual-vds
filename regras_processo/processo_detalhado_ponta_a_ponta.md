@@ -13,38 +13,38 @@ flowchart TD
         A2 --> A3["product_profile.json<br/>(Preço, Cores, Dores, Features)"]
     end
 
-    subgraph ETAPA2 ["ETAPA 2: INTELIGÊNCIA MULTIMODAL & MEMÓRIA"]
+    subgraph ETAPA2 ["ETAPA 2: INTELIGÊNCIA MULTIMODAL & DNA"]
         B1["Vídeos de Referência (*.mp4)<br/>(Pasta do Lote)"] --> B2["MediaPreprocessor & Gemini Multimodal<br/>(Extração de Frames / Vídeo Direto)"]
         A3 --> B2
         B2 --> B3["VideoDNA por Vídeo<br/>(Score Faceless, Ângulos, Ritmo)"]
         B3 --> B4["BEEMIDIA_CREATIVE_REPORT.json<br/>(Consolidação de Padrões Vencedores)"]
-        B4 -.->|Consulta Padrões| KB[("Knowledge Base Central<br/>knowledge_base.json")]
     end
 
-    subgraph ETAPA3 ["ETAPA 3: ESTRATÉGIA DE MODELOS"]
-        A3 --> C1["Model Strategist Engine"]
+    subgraph ETAPA3 ["ETAPA 3: APRENDIZADO ANTECIPADO & EXPANSÃO DO BANCO (COM APROVAÇÃO)"]
+        A3 --> C1["Identificação de Padrões Emergentes no P.Data & Vídeos<br/>(Novos modelos, exigências de nicho, dores novas)"]
         B4 --> C1
-        KB --> C1
-        C1 --> C2["model_strategy.json<br/>(Seleção de Modelos & Fit Score)"]
+        C1 --> C2["Apresentação da Proposta ao Usuário no Chat"]
+        C2 -->|Usuário Aprova| C3["Atualização Imediata da Knowledge Base<br/>(knowledge_base.json no Git)"]
+        C2 -->|Usuário Ajusta / Rejeita| C4["Calibração ou Descarte"]
     end
 
-    subgraph ETAPA4 ["ETAPA 4: ROTEIRIZAÇÃO CALIBRADA 10S"]
-        C2 --> D1["Base Script Architect"]
-        A3 --> D1
-        D1 --> D2["base_scripts.json<br/>(10 Roteiros de 2x5s com Prompts e Áudios Calibrados)"]
+    subgraph ETAPA4 ["ETAPA 4: ESTRATÉGIA DE MODELOS ENRIQUECIDA"]
+        A3 --> D1["Model Strategist Engine"]
+        B4 --> D1
+        C3 --> D1
+        D1 --> D2["model_strategy.json<br/>(Seleção de Modelos Atualizados & Fit Score)"]
     end
 
-    subgraph ETAPA5 ["ETAPA 5: GERAÇÃO E VALIDAÇÃO MANUAL"]
-        D2 --> E1["Prompts Cinematográficos de Alta Fidelidade<br/>(Lente 85mm, F/1.8, Iluminação de Estúdio, On-Screen Text)"]
-        E1 --> E2["Geração Manual no Nano Banana / Veo<br/>(Text-to-Video 10s)"]
-        E2 --> E3["Validação Visual e Auditiva do Usuário"]
+    subgraph ETAPA5 ["ETAPA 5: ROTEIRIZAÇÃO CALIBRADA 10S DE MÁXIMA QUALIDADE"]
+        D2 --> E1["Base Script Architect com Repertório Expandido"]
+        A3 --> E1
+        E1 --> E2["base_scripts.json<br/>(10 Roteiros de 2x5s com Prompts Cinematográficos e Áudio Calibrado)"]
     end
 
-    subgraph ETAPA6 ["ETAPA 6: CICLO DE APRENDIZADO & EXPANSÃO DO BANCO"]
-        E3 --> F1["Análise de Pós-Lote & Novos Padrões<br/>(Ganchos inovadores, novos modelos, detalhes de nicho)"]
-        F1 --> F2["Apresentação da Proposta ao Usuário no Chat"]
-        F2 -->|Usuário Aprova| F3["Atualização Oficial do knowledge_base.json no Git"]
-        F2 -->|Usuário Ajusta / Rejeita| F4["Calibração ou Descarte"]
+    subgraph ETAPA6 ["ETAPA 6: GERAÇÃO MANUAL & VALIDAÇÃO FINAL"]
+        E2 --> F1["Prompts Cinematográficos de Alta Fidelidade<br/>(Lente 85mm, F/1.8, Iluminação de Estúdio, On-Screen Text)"]
+        F1 --> F2["Geração Manual no Nano Banana / Veo<br/>(Text-to-Video 10s)"]
+        F2 --> F3["Validação Visual e Auditiva do Usuário"]
     end
 
     ETAPA1 --> ETAPA2
