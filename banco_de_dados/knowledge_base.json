@@ -1,0 +1,124 @@
+{
+  "version": "2.0",
+  "last_updated": "2026-09-24 11:30:00",
+  "models": [
+    {
+      "model_id": "HAND_DEMO_VOICEOVER",
+      "name": "Hand Demo + Voiceover",
+      "description": "Demonstração tátil em close-up das mãos manipulando o produto, destacando texturas, acabamento, cores e kit completo enquanto uma voz fluida explica os diferenciais.",
+      "visual_structure": "Enquadramento estrito nas mãos (Faceless), ângulo macro 85mm, iluminação suave lateral de estúdio e movimentos fluidos.",
+      "audio_pattern": "Voiceover comercial dinâmico e entusiasmado em ritmo calibrado (8 a 11 palavras por cena de 5s).",
+      "status": "CANONICAL",
+      "frequency": 10,
+      "compatible_categories": [
+        "Moda e Acessórios",
+        "Cozinha e Utilidades Domésticas",
+        "Beleza e Cuidados Pessoais"
+      ],
+      "evidence_videos": [
+        "Cozinha/7673093396260572436.mp4",
+        "Cozinha/7679869462786346261.mp4",
+        "Cabelos/7676109517721160980.mp4",
+        "Cabelos/7686900276363611399.mp4"
+      ]
+    },
+    {
+      "model_id": "PROBLEM_SOLUTION",
+      "name": "Problem / Solution",
+      "description": "Apresenta a dor e frustração comum do dia a dia e resolve imediatamente demonstrando a eficácia e facilidade do produto.",
+      "visual_structure": "Transição direta de uma cena de frustração/desordem para uma cena de alta performance estética e limpa.",
+      "audio_pattern": "Gancho com pergunta provocativa ou afirmação forte na Cena 1, seguida de alívio e Call to Action na Cena 2.",
+      "status": "CANONICAL",
+      "frequency": 8,
+      "compatible_categories": [
+        "Cozinha e Utilidades Domésticas",
+        "Beleza e Cuidados Pessoais",
+        "Moda e Acessórios"
+      ],
+      "evidence_videos": []
+    },
+    {
+      "model_id": "STRESS_TEST_DEMO",
+      "name": "Stress Test Demo (Torture Test)",
+      "description": "Submete o produto ao teste mais difícil e extremo possível para provar visualmente a qualidade inquestionável sem palavras vazias.",
+      "visual_structure": "Tomada contínua em câmera lenta 60fps f/1.8, close-up no ponto de maior atrito (ex: queijo/caramelo queimando sem óleo, puxão elástico máximo, calor extremo).",
+      "audio_pattern": "Hook de desafio ('Vamos fazer o teste de fogo!') seguido de reação de choque e comprovação.",
+      "status": "CANONICAL",
+      "frequency": 4,
+      "compatible_categories": [
+        "Cozinha e Utilidades Domésticas",
+        "Beleza e Cuidados Pessoais",
+        "Eletrônicos e Casa"
+      ],
+      "evidence_videos": []
+    },
+    {
+      "model_id": "THERMAL_TECH_SHOWCASE",
+      "name": "Thermal Tech Showcase (Tecnologia Visível)",
+      "description": "Torna visível e cinematográfica uma tecnologia interna ou invisível do aparelho (ex: luz azul de íons negativos, display digital subindo temperatura, vapor volumétrico).",
+      "visual_structure": "Iluminação com alto contraste, foco em LEDs indicadores, displays luminosos e efeitos físicos de calor ou íons.",
+      "audio_pattern": "Locução explicativa e tecnológica valorizando a segurança e a rapidez.",
+      "status": "CANONICAL",
+      "frequency": 3,
+      "compatible_categories": [
+        "Beleza e Cuidados Pessoais",
+        "Eletroportáteis",
+        "Tecnologia"
+      ],
+      "evidence_videos": [
+        "Cabelos/7673542506251963669.mp4",
+        "Cabelos/7684085461320469781.mp4"
+      ]
+    },
+    {
+      "model_id": "UNBOXING_ASMR",
+      "name": "Unboxing ASMR & Revelação",
+      "description": "Experiência sensorial tátil e sonora ao desembalar, abrir tampas e revelar o kit completo em uma superfície de luxo.",
+      "visual_structure": "Visão superior (Flatlay) ou ângulo de 45°, mãos abrindo embalagens, retirando proteções e organizando o kit.",
+      "audio_pattern": "Sons nítidos de encaixe, plásticos e cliques ou locução suave combinada com trilha estética.",
+      "status": "CANONICAL",
+      "frequency": 3,
+      "compatible_categories": [
+        "Beleza e Cuidados Pessoais",
+        "Moda e Acessórios",
+        "Utilidades Domésticas"
+      ],
+      "evidence_videos": [
+        "Cabelos/7678063527310920981.mp4"
+      ]
+    },
+    {
+      "model_id": "PRODUCT_SHOWCASE",
+      "name": "Product Showcase 360°",
+      "description": "Exibição direta da beleza, brilho, curvas e acabamento do produto sob iluminação de estúdio profissional.",
+      "visual_structure": "Takes lentos com câmera em dolly circular ou pan lateral em superfícies de mármore/quartzo.",
+      "audio_pattern": "Música estética em alta, locução minimalista e elegante focada em luxo acessível.",
+      "status": "CANONICAL",
+      "frequency": 5,
+      "compatible_categories": [
+        "Moda e Acessórios",
+        "Beleza e Cuidados Pessoais",
+        "Cozinha e Utilidades Domésticas"
+      ],
+      "evidence_videos": [
+        "Cabelos/7673542506251963669.mp4"
+      ]
+    },
+    {
+      "model_id": "POV_SKETCH",
+      "name": "POV Sketch (Visão do Usuário)",
+      "description": "Cena em primeira pessoa simulando o uso diário real pelo próprio comprador na sua casa.",
+      "visual_structure": "Câmera na mão simulando os olhos do usuário operando o produto.",
+      "audio_pattern": "Voz natural conversacional de relato ou trend de TikTok.",
+      "status": "CANONICAL",
+      "frequency": 2,
+      "compatible_categories": [
+        "Beleza e Cuidados Pessoais",
+        "Utilidades Domésticas"
+      ],
+      "evidence_videos": [
+        "Cabelos/7684695419447971092.mp4"
+      ]
+    }
+  ]
+}
