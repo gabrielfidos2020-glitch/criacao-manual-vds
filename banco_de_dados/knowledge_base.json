@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "last_updated": "2026-09-24 11:30:00",
+  "last_updated": "2026-09-24 13:00:00",
   "models": [
     {
       "model_id": "HAND_DEMO_VOICEOVER",
@@ -120,5 +120,245 @@
         "Cabelos/7684695419447971092.mp4"
       ]
     }
-  ]
+  ],
+  "vocabularios": {
+    "model_classification": {
+      "canonicos": [
+        "HAND_DEMO_VOICEOVER",
+        "PROBLEM_SOLUTION",
+        "STRESS_TEST_DEMO",
+        "THERMAL_TECH_SHOWCASE",
+        "UNBOXING_ASMR",
+        "PRODUCT_SHOWCASE",
+        "POV_SKETCH",
+        "outro"
+      ],
+      "aliases": {
+        "hand demo": "HAND_DEMO_VOICEOVER",
+        "hand_demo": "HAND_DEMO_VOICEOVER",
+        "hand demo + voiceover": "HAND_DEMO_VOICEOVER",
+        "demonstracao_maos": "HAND_DEMO_VOICEOVER",
+        "problem solution": "PROBLEM_SOLUTION",
+        "problem_solution": "PROBLEM_SOLUTION",
+        "problema / solucao": "PROBLEM_SOLUTION",
+        "problema solucao": "PROBLEM_SOLUTION",
+        "antes_depois": "PROBLEM_SOLUTION",
+        "stress test": "STRESS_TEST_DEMO",
+        "stress_test": "STRESS_TEST_DEMO",
+        "teste_extremo": "STRESS_TEST_DEMO",
+        "thermal tech": "THERMAL_TECH_SHOWCASE",
+        "thermal_tech": "THERMAL_TECH_SHOWCASE",
+        "tecnologia_termica": "THERMAL_TECH_SHOWCASE",
+        "unboxing": "UNBOXING_ASMR",
+        "unboxing_asmr": "UNBOXING_ASMR",
+        "unboxing asmr": "UNBOXING_ASMR",
+        "product showcase": "PRODUCT_SHOWCASE",
+        "product_showcase": "PRODUCT_SHOWCASE",
+        "showcase": "PRODUCT_SHOWCASE",
+        "pov sketch": "POV_SKETCH",
+        "pov_sketch": "POV_SKETCH",
+        "pov": "POV_SKETCH"
+      }
+    },
+    "gancho": {
+      "canonicos": [
+        "dor",
+        "curiosidade",
+        "demonstracao_visual",
+        "prova_social",
+        "preco_oferta",
+        "choque_visual",
+        "outro"
+      ],
+      "aliases": {
+        "gancho_de_dor": "dor",
+        "problema": "dor",
+        "dor_frustracao": "dor",
+        "pergunta_curiosa": "curiosidade",
+        "revelacao": "curiosidade",
+        "misterio": "curiosidade",
+        "demonstracao": "demonstracao_visual",
+        "visual_imediato": "demonstracao_visual",
+        "acao_imediata": "demonstracao_visual",
+        "depoimento": "prova_social",
+        "avaliacao": "prova_social",
+        "relato": "prova_social",
+        "desconto": "preco_oferta",
+        "promocao": "preco_oferta",
+        "carrinho": "preco_oferta",
+        "choque": "choque_visual",
+        "impacto_visual": "choque_visual",
+        "efeito_uau": "choque_visual"
+      }
+    },
+    "dor": {
+      "canonicos": [
+        "Frizz e Alinhamento dos Fios",
+        "Demora na Secagem e Modelagem",
+        "Aparelho Pesado e Cansaço Físico",
+        "Incompatibilidade de Voltagem em Viagens",
+        "Excesso de Aparelhos Diferentes e Desorganização",
+        "Danos Térmicos e Superaquecimento",
+        "Praticidade e Economia de Tempo",
+        "outro"
+      ],
+      "aliases": {
+        "frizz": "Frizz e Alinhamento dos Fios",
+        "frizz e alinhamento dos fios": "Frizz e Alinhamento dos Fios",
+        "fios arrepiados": "Frizz e Alinhamento dos Fios",
+        "estatica": "Frizz e Alinhamento dos Fios",
+        "cabelo rebelde": "Frizz e Alinhamento dos Fios",
+        "demora": "Demora na Secagem e Modelagem",
+        "demora na secagem e modelagem": "Demora na Secagem e Modelagem",
+        "tempo excessivo": "Demora na Secagem e Modelagem",
+        "horas secando": "Demora na Secagem e Modelagem",
+        "secagem lenta": "Demora na Secagem e Modelagem",
+        "pesado": "Aparelho Pesado e Cansaço Físico",
+        "aparelho pesado e cansaco fisico": "Aparelho Pesado e Cansaço Físico",
+        "dor no braco": "Aparelho Pesado e Cansaço Físico",
+        "braco cansado": "Aparelho Pesado e Cansaço Físico",
+        "cansaco": "Aparelho Pesado e Cansaço Físico",
+        "viagem": "Incompatibilidade de Voltagem em Viagens",
+        "incompatibilidade de voltagem em viagens": "Incompatibilidade de Voltagem em Viagens",
+        "voltagem": "Incompatibilidade de Voltagem em Viagens",
+        "bivolt": "Incompatibilidade de Voltagem em Viagens",
+        "levar na mala": "Incompatibilidade de Voltagem em Viagens",
+        "bagunca": "Excesso de Aparelhos Diferentes e Desorganização",
+        "excesso de aparelhos diferentes e desorganizacao": "Excesso de Aparelhos Diferentes e Desorganização",
+        "necessidade de varios aparelhos diferentes para alisar, enrolar e dar volume": "Excesso de Aparelhos Diferentes e Desorganização",
+        "necessidade de varios aparelhos diferentes para alisar, enrolar e dar volume, gerando bagunca e espaco ocupado": "Excesso de Aparelhos Diferentes e Desorganização",
+        "multiplos aparelhos": "Excesso de Aparelhos Diferentes e Desorganização",
+        "muitos cabos": "Excesso de Aparelhos Diferentes e Desorganização",
+        "espaco ocupado": "Excesso de Aparelhos Diferentes e Desorganização",
+        "queimar o cabelo": "Danos Térmicos e Superaquecimento",
+        "danos termicos": "Danos Térmicos e Superaquecimento",
+        "danos termicos e superaquecimento": "Danos Térmicos e Superaquecimento",
+        "ressecamento e alteracao de textura causados por escovas secadoras concorrentes": "Danos Térmicos e Superaquecimento",
+        "ressecamento": "Danos Térmicos e Superaquecimento",
+        "calor excessivo": "Danos Térmicos e Superaquecimento",
+        "praticidade": "Praticidade e Economia de Tempo",
+        "falta de tempo": "Praticidade e Economia de Tempo",
+        "rotina corrida": "Praticidade e Economia de Tempo",
+        "praticidade e economia de tempo": "Praticidade e Economia de Tempo"
+      }
+    },
+    "publico": {
+      "canonicos": [
+        "Pessoas com cabelos volumosos/rebeldes em busca de alinhamento",
+        "Mulheres com rotina acelerada em busca de secagem rápida",
+        "Pessoas em trânsito ou viagens frequentes",
+        "Profissionais e entusiastas de finalização de salão",
+        "Pessoas cansadas de acúmulo de múltiplos aparelhos",
+        "Consumidor geral em busca de praticidade",
+        "outro"
+      ],
+      "aliases": {
+        "mulheres com rotina corrida": "Mulheres com rotina acelerada em busca de secagem rápida",
+        "mulheres que valorizam praticidade, estetica e cuidado capilar": "Mulheres com rotina acelerada em busca de secagem rápida",
+        "mulheres praticas": "Mulheres com rotina acelerada em busca de secagem rápida",
+        "dia a dia": "Mulheres com rotina acelerada em busca de secagem rápida",
+        "tempo": "Mulheres com rotina acelerada em busca de secagem rápida",
+        "cabelos rebeldes": "Pessoas com cabelos volumosos/rebeldes em busca de alinhamento",
+        "cabelos volumosos": "Pessoas com cabelos volumosos/rebeldes em busca de alinhamento",
+        "frizz": "Pessoas com cabelos volumosos/rebeldes em busca de alinhamento",
+        "alisamento": "Pessoas com cabelos volumosos/rebeldes em busca de alinhamento",
+        "pessoas frustradas com escovas secadoras comuns que danificam o cabelo": "Pessoas com cabelos volumosos/rebeldes em busca de alinhamento",
+        "viagem": "Pessoas em trânsito ou viagens frequentes",
+        "viajantes": "Pessoas em trânsito ou viagens frequentes",
+        "mala": "Pessoas em trânsito ou viagens frequentes",
+        "hotel": "Pessoas em trânsito ou viagens frequentes",
+        "pessoas em transito ou viagens frequentes": "Pessoas em trânsito ou viagens frequentes",
+        "salao": "Profissionais e entusiastas de finalização de salão",
+        "profissional": "Profissionais e entusiastas de finalização de salão",
+        "cabeleireiro": "Profissionais e entusiastas de finalização de salão",
+        "resultado de salao": "Profissionais e entusiastas de finalização de salão",
+        "profissionais e entusiastas de finalizacao de salao": "Profissionais e entusiastas de finalização de salão",
+        "bagunca": "Pessoas cansadas de acúmulo de múltiplos aparelhos",
+        "espaco": "Pessoas cansadas de acúmulo de múltiplos aparelhos",
+        "multiplos aparelhos": "Pessoas cansadas de acúmulo de múltiplos aparelhos",
+        "pessoas que cuidam do cabelo em casa e buscam otimizar espaco e tempo": "Pessoas cansadas de acúmulo de múltiplos aparelhos",
+        "pessoas cansadas de acumulo de multiplos aparelhos": "Pessoas cansadas de acúmulo de múltiplos aparelhos",
+        "pessoas que buscam praticidade e resultados profissionais na modelagem de cabelos em casa ou em viagens": "Consumidor geral em busca de praticidade",
+        "geral": "Consumidor geral em busca de praticidade",
+        "praticidade": "Consumidor geral em busca de praticidade",
+        "consumidor geral em busca de praticidade": "Consumidor geral em busca de praticidade"
+      }
+    },
+    "estrutura": {
+      "canonicos": [
+        "Comparativo Antes vs Depois em Mechas",
+        "Abertura de Embalagem e Detalhes dos Acessórios",
+        "Demonstração Passo a Passo de Modelagem",
+        "Comparativo de Troca de Aparelhos (Troque Isso por Isso)",
+        "Teste de Estresse e Alta Performance",
+        "outro"
+      ],
+      "aliases": {
+        "antes e depois": "Comparativo Antes vs Depois em Mechas",
+        "antes vs depois": "Comparativo Antes vs Depois em Mechas",
+        "mechas": "Comparativo Antes vs Depois em Mechas",
+        "unboxing": "Abertura de Embalagem e Detalhes dos Acessórios",
+        "estojo": "Abertura de Embalagem e Detalhes dos Acessórios",
+        "maleta": "Abertura de Embalagem e Detalhes dos Acessórios",
+        "detalhes dos acessorios": "Abertura de Embalagem e Detalhes dos Acessórios",
+        "passo a passo": "Demonstração Passo a Passo de Modelagem",
+        "modelagem": "Demonstração Passo a Passo de Modelagem",
+        "alisando": "Demonstração Passo a Passo de Modelagem",
+        "troque isso": "Comparativo de Troca de Aparelhos (Troque Isso por Isso)",
+        "versus antigos": "Comparativo de Troca de Aparelhos (Troque Isso por Isso)",
+        "teste de estresse": "Teste de Estresse e Alta Performance",
+        "teste extremo": "Teste de Estresse e Alta Performance"
+      }
+    },
+    "prova": {
+      "canonicos": [
+        "Demonstração visual prática em mecha",
+        "Encaixe magnético/mecânico de ponteiras",
+        "Teste de resistência/temperatura",
+        "Contraste imediato antes vs depois",
+        "Unboxing e visualização do kit completo",
+        "outro"
+      ],
+      "aliases": {
+        "mecha": "Demonstração visual prática em mecha",
+        "pratica": "Demonstração visual prática em mecha",
+        "demonstracao": "Demonstração visual prática em mecha",
+        "demonstracao visual do produto": "Demonstração visual prática em mecha",
+        "demonstracao em mecha": "Demonstração visual prática em mecha",
+        "encaixe": "Encaixe magnético/mecânico de ponteiras",
+        "ponteiras": "Encaixe magnético/mecânico de ponteiras",
+        "magnetico": "Encaixe magnético/mecânico de ponteiras",
+        "teste": "Teste de resistência/temperatura",
+        "temperatura": "Teste de resistência/temperatura",
+        "resistencia": "Teste de resistência/temperatura",
+        "antes e depois": "Contraste imediato antes vs depois",
+        "unboxing": "Unboxing e visualização do kit completo",
+        "kit completo": "Unboxing e visualização do kit completo"
+      }
+    },
+    "cta": {
+      "canonicos": [
+        "Link na bio / Carrinho laranja",
+        "Oferta por tempo limitado / Cupom",
+        "Comente para receber o link",
+        "Nenhum CTA direto (foco em branding/produto)",
+        "outro"
+      ],
+      "aliases": {
+        "carrinho": "Link na bio / Carrinho laranja",
+        "link": "Link na bio / Carrinho laranja",
+        "bio": "Link na bio / Carrinho laranja",
+        "carrinho laranja": "Link na bio / Carrinho laranja",
+        "comprar": "Link na bio / Carrinho laranja",
+        "indicacao de link na bio/carrinho laranja": "Link na bio / Carrinho laranja",
+        "oferta": "Oferta por tempo limitado / Cupom",
+        "cupom": "Oferta por tempo limitado / Cupom",
+        "tempo limitado": "Oferta por tempo limitado / Cupom",
+        "comente": "Comente para receber o link",
+        "nenhum": "Nenhum CTA direto (foco em branding/produto)",
+        "branding": "Nenhum CTA direto (foco em branding/produto)",
+        "nenhum cta explicito no video (foco total em branding e visual do produto)": "Nenhum CTA direto (foco em branding/produto)"
+      }
+    }
+  }
 }
